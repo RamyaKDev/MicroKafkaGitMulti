@@ -1,0 +1,18 @@
+
+#datasource specific properties
+spring: 
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://localhost:3306/ecommdb
+  ##jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# feign url for other services
+product-info: # this is the service name
+   service:
+      url: http://product-info:8082
