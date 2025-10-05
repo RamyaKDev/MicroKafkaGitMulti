@@ -1,0 +1,6 @@
+
+
+# feign url for other services
+product-catalog:
+   service:
+      url: http://product-catalog:8084

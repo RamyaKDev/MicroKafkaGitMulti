@@ -14,3 +14,7 @@ spring:
 
 
 message: In production profile
+#Feign URLs for other services
+product-inventory:
+  service:
+     url: http://product-inventory:8087
